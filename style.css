@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* register*/
+.offer{
+    background: radial-gradient(#fff, #938b8b);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+
+.student-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0A0826;
+}
+.student-heading span{
+    color: #E76F51;
+}
+.student-body img{
+    width: 150px;
+    height: 150px;
+}
+.student-body p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+/* Faq Start */
+
+.faq{
+    margin: 90px 0;
+}
+.faq-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #0D0925;
+}
+
+.faq-heading span{
+    color: #E76F51;
+}
+
+
+.faq-image img{
+    width: 430px;
+    height: 420px;
+}
+
+.brand-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0D0925;
+
+}
+/* Contact Us Start */
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding:50px 0;
+}
+#contact h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#contact a{
+	color:#333333;
+    transition: all linear .3s;
+}
+#contact a:hover{
+	text-decoration:none;
+	color:#E76F51;
+}
+
